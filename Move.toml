@@ -1,0 +1,11 @@
+[package]
+name = "swheel-core"
+version = "0.0.1"
+published-at = "0x1bb0b2e26444fe5bd939d105caa7113856633703f105314e19083808ba74f76a"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet" }
+
+[addresses]
+swheel =  "0x1bb0b2e26444fe5bd939d105caa7113856633703f105314e19083808ba74f76a"
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"
